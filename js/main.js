@@ -3,7 +3,7 @@ class BasicColorTheme {
         this.frame = frame;
         this.isDarkMode = isDarkMode;
         this.usage = 0;
-        this.lastUsed = Math.random();
+        this.lastUsed = 0;
     }
 
     get browserThemeObject() {
@@ -107,8 +107,7 @@ let currentThemeMode = null;
 const LIGHT_THEME_COLORS = [
     '#B8103D',
     '#7A21C7',
-    '#D6691A',
-    '#1B5A96',
+    '#FFEB3B',
     '#8F0202',
     '#0A7A0A',
     '#2C1B47',
@@ -117,27 +116,20 @@ const LIGHT_THEME_COLORS = [
     '#8B4513',
     '#2F4F4F',
     '#483D8B',
-    '#8B008B',
     '#556B2F',
     '#8B4789',
 ];
 
 const DARK_THEME_COLORS = [
-    '#FF4081',
-    '#E040FB',
-    '#FF9800',
-    '#2196F3',
-    '#F44336',
-    '#4CAF50',
-    '#9C27B0',
-    '#FF5722',
     '#3F51B5',
-    '#FF6F00',
+    '#607D8B',
+    '#FF9800',
     '#E91E63',
+    '#9C27B0',
+    '#4CAF50',
+    '#FF6F00',
     '#009688',
     '#795548',
-    '#607D8B',
-    '#FFEB3B',
 ];
 
 let LIGHT_THEMES = [];
