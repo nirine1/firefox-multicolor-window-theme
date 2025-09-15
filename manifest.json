@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Multicolor Windows",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Assign unique colors to each Firefox window with light/dark theme support",
   "homepage_url": "https://github.com/nirine/firefox-multicolor-window-theme",
 
